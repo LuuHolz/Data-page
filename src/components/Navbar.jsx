@@ -1,7 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import LogoNucba from '../assets/logo-nucba.png'
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import LogoNucba from '../assets/logo-nucba.png';
 
 function NavbarHome() {
   return (
@@ -13,15 +14,28 @@ function NavbarHome() {
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Product</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
-            <Nav.Link href="#link">Login</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+
+        <div>
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+    ¿
+                <Nav.Link href="#link">Login</Nav.Link>
+
+                <NavDropdown title="Dropdown" id="basic-nav-dropdown" className='nav-dropdown'>
+                <NavDropdown.Item href="#action/3.1">Home</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                    Product
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">About</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                    Contact
+                </NavDropdown.Item>
+                </NavDropdown>
+
+            </Nav>
+            </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
   );

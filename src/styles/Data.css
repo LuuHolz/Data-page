@@ -15,3 +15,42 @@
 a {
     color: #fff;
 }
+
+
+/* seccion 1 Hero */
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 4rem;
+    padding: 4rem 0;
+}
+
+.img-screen-desk{
+    max-width: 90%;
+}
+
+.section-one-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    max-width: 350px;
+}
+
+.text-predicciones{
+    font-weight: 400;
+    font-size: 2.1rem;
+}
+
+.btn-probar-ahora{
+    background-color: #4452fe;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
