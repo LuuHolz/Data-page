@@ -22,8 +22,8 @@ function NavbarHome() {
                 <Nav.Link href="#link">Login</Nav.Link>
 
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown" className='nav-dropdown'>
-                <NavDropdown.Item href="#action/3.1">Home</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="#sectionOne">Home</NavDropdown.Item>
+                <NavDropdown.Item href="#sectionTwo">
                     Product
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">About</NavDropdown.Item>

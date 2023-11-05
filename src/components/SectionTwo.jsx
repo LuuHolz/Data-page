@@ -6,7 +6,7 @@ import VectorDos from '../assets/vector-2.png';
 
 function SectionTwo() {
   return (
-    <section className='products'>
+    <section className='products' id='sectionTwo'>
         <div className='section-two-texts'>
             <h2 className='text-potencia'>Potenciá tu producto</h2>
             <p>Lleve predicciones dinámicas de Ml a su propia aplicación utilizando nuestra API de bajo código. Haz predicciones en tiempo real.</p>

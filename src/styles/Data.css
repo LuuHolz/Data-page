@@ -1,10 +1,12 @@
-/* variables colores
- --primary: #4452fe;
---first-text: #000; 
---gray: #5c5c5c;
---dark-bg: #181818;
---white: #fff;
---light-text: #fff;*/
+/* variables colores */
+:root {
+  --primary: #4452fe;
+  --first-text: #000;
+  --gray: #5c5c5c;
+  --dark-bg: #181818;
+  --white: #fff;
+  --light-text: #fff;
+}
 
 /* fuentes
 --font: 'Poppins', sans-serif;
@@ -13,101 +15,5 @@
 --bold: 700; */
 
 a {
-    color: #fff;
-}
-
-
-/* SECTIO 1 - HERO */
-
-.hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    gap: 4rem;
-    padding: 4rem 0;
-}
-
-.img-screen-desk{
-    max-width: 90%;
-}
-
-.section-one-texts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-    max-width: 350px;
-}
-
-.text-predicciones{
-    font-weight: 400;
-    font-size: 2.1rem;
-}
-
-.btn-probar-ahora{
-    background-color: #4452fe;
-    color: #fff;
-    border: none;
-    padding: 20px 40px;
-    border-radius: 8px;
-}
-
-
-/* SECTIO 2 - PRODUCTS */
-
-.products{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 3rem 0;
-}
-
-.section-two-texts{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.text-potencia{
-    font-weight: 400;
-    font-size: 2.1rem;
-}
-
-.product-img-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-}
-
-.img-product{
-    width: 100%;
-}
-
-.product-cards-container{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.product-card{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.card-title{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
+  color: #fff;
 }
