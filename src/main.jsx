@@ -7,6 +7,7 @@ import './styles/Navbar.css'
 import './styles/SectionOne.css'
 import './styles/SectionTwo.css'
 import './styles/SectionThree.css'
+import './styles/SectionFour.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
