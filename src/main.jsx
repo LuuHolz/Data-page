@@ -8,6 +8,7 @@ import './styles/SectionOne.css'
 import './styles/SectionTwo.css'
 import './styles/SectionThree.css'
 import './styles/SectionFour.css'
+import './styles/SectionFive.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
