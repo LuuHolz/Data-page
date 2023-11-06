@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import SectionOne from '../components/SectionOne'
 import SectionTwo from '../components/SectionTwo'
 import SectionThree from '../components/SectionThree'
@@ -16,6 +17,8 @@ function Home() {
         <SectionThree/>
         <SectionFour/>
         <SectionFive/>
+
+        <Footer/>
     </div>
   )
 }

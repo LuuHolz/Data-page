@@ -9,6 +9,7 @@ import './styles/SectionTwo.css'
 import './styles/SectionThree.css'
 import './styles/SectionFour.css'
 import './styles/SectionFive.css'
+import './styles/Footer.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
